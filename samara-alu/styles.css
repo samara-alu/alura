@@ -1,0 +1,50 @@
+body {
+  color: white;
+  background: black;
+  margin: 0px;
+}
+
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(42, 122, 228);
+}
+
+.chamada-texto {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+.Catalogo-videos img {
+  height: 100px;
+  float: left;
+  opacity: 0.5;
+
+}
+
+.Catalogo-videos img:hover {
+opacity: 1.0;
+}
+
+.Catalogo-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.catalogo h2{
+  color: blue;
+}
